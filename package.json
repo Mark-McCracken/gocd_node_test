@@ -5,8 +5,11 @@
   "main": "index.js",
   "scripts": {
     "compile": "tsc",
-    "start": "node run-process.js",
-    "run-process": "node run-process.js",
+    "start": "node dist/run-process.js",
+    "run-process": "node dist/run-process.js",
+    "undo-process": "node dist/undo-process.js",
+    "check-process": "node dist/check-process.js",
+    "anomaly-detection": "node dist/anomaly-detection.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
