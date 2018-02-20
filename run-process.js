@@ -4,7 +4,7 @@ const moment = require("moment");
 const fs = require("fs");
 const id = process.pid;
 const processType = `run_process`;
-const version = 'alpha';
+const version = 'beta';
 console.log(`Running process`);
 console.log(`Process ID: ${id}`);
 console.log(moment().format("YYYY-MM-DD Do HH:mm:ss"));

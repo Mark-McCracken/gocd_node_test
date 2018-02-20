@@ -2,7 +2,7 @@ import * as moment from "moment";
 import * as fs from "fs";
 const id = process.pid;
 const processType = `run_process`;
-const version = 'alpha';
+const version = 'beta';
 
 console.log(`Running process`);
 console.log(`Process ID: ${id}`);
