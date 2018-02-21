@@ -2,7 +2,7 @@ import * as moment from "moment";
 import * as fs from "fs";
 const id = process.pid;
 const processType = `run_process`;
-const version = 'charlie';
+const version = 'delta';
 const dateFormatted = moment().format("YYYY-MM-DD Do HH:mm:ss");
 const timeFormatted = moment().format("YYYY_MM_DD_HH_mm_ss");
 
