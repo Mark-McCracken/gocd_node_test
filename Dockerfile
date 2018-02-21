@@ -1,4 +1,3 @@
-
 FROM node:latest
 
 RUN mkdir -p /usr/src/app
@@ -13,4 +12,5 @@ COPY ./ /usr/src/app/
 
 RUN npm run compile
 
-CMD ["npm", "run", "check-process"]
+ENTRYPOINT ["npm", "run"]
+CMD ["start"]
