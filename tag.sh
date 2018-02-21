@@ -1,0 +1,3 @@
+#!/bin/sh
+
+docker tag ${GO_PIPELINE_NAME}:latest ${DOCKER_REGISTRY}/${GO_PIPELINE_NAME}:${GO_PIPELINE_LABEL}
